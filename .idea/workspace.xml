@@ -11,7 +11,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d101b4b0-e603-462d-9fea-3932d957d3bf" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/Resources/Library.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Resources/Library.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day27_DateTime/unique_Arrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day27_DateTime/unique_Arrays.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -143,7 +143,21 @@
       <option name="project" value="LOCAL" />
       <updated>1587652393942</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Day 27">
+      <created>1587652693011</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1587652693011</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Day 27">
+      <created>1587652842205</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1587652842205</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -185,7 +199,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="trr" />
-    <option name="LAST_COMMIT_MESSAGE" value="trr" />
+    <MESSAGE value="Day 27" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day 27" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1419" y="265" key="#Inspections" timestamp="1586755298760">
@@ -213,10 +228,10 @@
       <screen x="0" y="23" width="2560" height="1316" />
     </state>
     <state x="1677" y="433" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.2560.1316@0.23.2560.1316" timestamp="1587155922937" />
-    <state x="809" y="260" key="CommitChangelistDialog2" timestamp="1587652393791">
+    <state x="809" y="260" key="CommitChangelistDialog2" timestamp="1587652842089">
       <screen x="0" y="23" width="2560" height="1313" />
     </state>
-    <state x="809" y="260" key="CommitChangelistDialog2/0.23.2560.1313@0.23.2560.1313" timestamp="1587652393791" />
+    <state x="809" y="260" key="CommitChangelistDialog2/0.23.2560.1313@0.23.2560.1313" timestamp="1587652842089" />
     <state x="1549" y="256" key="CommitChangelistDialog2/0.23.2560.1316@0.23.2560.1316" timestamp="1587617290841" />
     <state x="173" y="152" key="DiffContextDialog" timestamp="1587620230623">
       <screen x="0" y="23" width="2560" height="1313" />
@@ -382,10 +397,10 @@
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state width="538" height="445" key="SwitcherDM/0.0.2560.1440@0.0.2560.1440" timestamp="1586920952575" />
-    <state x="1536" y="414" key="Vcs.Push.Dialog.v2" timestamp="1587620332337">
+    <state x="1536" y="414" key="Vcs.Push.Dialog.v2" timestamp="1587652906043">
       <screen x="0" y="23" width="2560" height="1313" />
     </state>
-    <state x="1536" y="414" key="Vcs.Push.Dialog.v2/0.23.2560.1313@0.23.2560.1313" timestamp="1587620332337" />
+    <state x="1536" y="414" key="Vcs.Push.Dialog.v2/0.23.2560.1313@0.23.2560.1313" timestamp="1587652906043" />
     <state x="1278" y="197" key="com.intellij.ide.util.TipDialog" timestamp="1586638640365">
       <screen x="0" y="23" width="2560" height="1313" />
     </state>
@@ -399,10 +414,10 @@
     <state x="3442" y="48" key="com.intellij.ide.util.TipDialog/1680.-126.2560.1417/0.23.1680.954@1680.-126.2560.1417" timestamp="1584389045563" />
     <state x="3442" y="48" key="com.intellij.ide.util.TipDialog/1680.-126.2560.1417/0.23.1680.956@1680.-126.2560.1417" timestamp="1584217425962" />
     <state x="2958" y="48" key="com.intellij.ide.util.TipDialog/1680.-126.2560.1417/0.23.1680.958@1680.-126.2560.1417" timestamp="1584816300612" />
-    <state x="1740" y="595" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1587652652584">
+    <state x="1740" y="595" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1587653052037">
       <screen x="0" y="23" width="2560" height="1313" />
     </state>
-    <state x="1740" y="595" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.2560.1313@0.23.2560.1313" timestamp="1587652652584" />
+    <state x="1740" y="595" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.2560.1313@0.23.2560.1313" timestamp="1587653052037" />
     <state x="274" y="888" width="906" height="979" key="dock-window-1" timestamp="1586117066419">
       <screen x="0" y="23" width="2560" height="1313" />
     </state>
