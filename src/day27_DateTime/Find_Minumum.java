@@ -1,47 +1,67 @@
 package day27_DateTime;
 
 public class Find_Minumum {
+
+    /*
+    1. write a return method that can return the minimum number from an int array
+	2. write a return method that can return the minimum number from a double array
+					NOTE: apply method overloading,  DO NOT USE SORT METHOD.
+     */
+
     public static void main(String[] args) {
+        int[] arr = {5, 4, 7, 5};
 
-        int [] arr={5,4,7,5};
-        double [] arr3={50.0,4.,7,5.0};
-        int munumum=arr[0];
+        int minimum = arr[0]; //4
 
-        for(int each: arr){
-            if(each<munumum){
-                munumum=each;
+        for(int each  : arr ){ //each: 5, 4, 7, 5
+
+            if(each < minimum){
+                minimum = each;
             }
+
         }
-        System.out.println(minumumNum(arr));
-       // System.out.println(munumum);
-        System.out.println(  minumumNum(arr3));
+
+        System.out.println(minimum);
+
+        int[] arr2 = {100,2000,3000,40,50, -100, -9000};
+
+        System.out.println(  minimum(arr2)  );
+
+        double[] arr3 = { 55.5 , 10.5, 1.5, 2.5 , 0, -10.25 };
+        double num1 =   minimum(arr3);
+
+        System.out.println(num1);
 
     }
 
-    public static int minumumNum(int [] arr){
+    public static int minimum(int[] arr){
 
-        int munumum=arr[0];
-
-        for(int each: arr){
-            if(each<munumum){
-                munumum=each;
+        int minimum = arr[0]; //4
+        for(int each  : arr ){ //each: 5, 4, 7, 5
+            if(each < minimum){
+                minimum = each;
             }
         }
 
-        return munumum;
+        return minimum;
     }
 
-    public static double minumumNum(double [] arr){
-        double munumum=arr[0];
+    public static double minimum(double[] arr){
 
-
-        for(double each: arr){
-
-            if(each<munumum){
-                munumum=each;
+        double minimum = arr[0]; //4
+        for(double each  : arr ){ //each: 5, 4, 7, 5
+            if(each < minimum){
+                minimum = each;
             }
         }
 
-        return munumum;
+        return minimum;
+
     }
+
+
+
+
+
+
 }
