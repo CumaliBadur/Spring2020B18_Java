@@ -8,14 +8,16 @@ public class Replit087_Loop  {
         Scanner scan = new Scanner(System.in);
         String word = scan.next();
 
-        if (0 == word.indexOf("java", 0) || 1 == word.indexOf("java", 1)) {
+        if (0 == word.indexOf("java", 0) || 1 ==
+                word.indexOf("java", 1)) {
             exists = true;
         }
         System.out.println(exists);
     }
 }
 /*Instructions from your teacher:
-Given a string word, print true if "java" appears starting at index 0 or 1 in the string, such as with "javaxxx" or "xjavaxx" but not "xxjavaxx". The string may be any length, including 0word = .
+Given a string word, print true if "java" appears starting at index 0 or 1 in the string,
+ such as with "javaxxx" or "xjavaxx" but not "xxjavaxx". The string may be any length, including 0word = .
 
 Example:
 input: javapython
