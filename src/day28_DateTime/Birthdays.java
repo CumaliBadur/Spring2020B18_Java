@@ -1,26 +1,36 @@
 package day28_DateTime;
 
+import java.time.LocalDate;
 import java.time.LocalTime;
 import java.time.format.DateTimeFormatter;
 
 public class Birthdays  {
 
     public static void main(String[] args) {
-        DateTimeFormatter dtf = DateTimeFormatter.ofPattern("hh:mm:ss a");
 
+        HappyBirthDay(2000, 4, 26);
 
-        LocalTime time1  = LocalTime.of(9,30, 30);
-
-        System.out.println(time1.format(dtf) );
-
-        LocalTime time2 = LocalTime.of(12,0, 30);
-
-        System.out.println(time2.format(dtf) );
-
-        boolean result1 = time1.isAfter(time2);
-        System.out.println(result1);
 
     }
 
+
+    public static void HappyBirthDay(int year, int month, int day){
+        LocalDate birthday = LocalDate.of(year, month, day);
+        LocalDate today = LocalDate.now();
+        int month2 = today.getMonthValue();
+        int day2 = today.getDayOfMonth();
+        if(month2 == month && day == day2){
+            System.out.println("Today is your birthday!!!");
+            System.out.println("   \n \t \t  \t \t    * * * * * * * * * * * * * * * * * * * * *");
+            System.out.println("   \t \t  \t \t  *  * * * * * * * * * * * * * * * * * * * *  * ");
+            System.out.println("  \t \t  \t \t *  *                                       *  * ");
+            System.out.println(" \t \t  \t \t*  *          Happy BirthDay To You!         *  * ");
+            System.out.println("  \t \t  \t \t *  *                                       *  * ");
+            System.out.println("  \t \t   \t \t  *  * * * * * * * * * * * * * * * * * * * *  * ");
+            System.out.println("   \t \t   \t \t    * * * * * * * * * * * * * * * * * * * * *");
+            return;
+        }
+        System.out.println("Today is not your birthday yet");
+    }
 
 }
