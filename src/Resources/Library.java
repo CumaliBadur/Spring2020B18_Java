@@ -1,5 +1,6 @@
 package Resources;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 
 public class Library {
@@ -77,7 +78,7 @@ public class Library {
         return result;
     }
 
-    public static int frequency(String str, char ch){ // counts the ch' frequency
+    public static int Frequency(String str, char ch){ // counts the ch' frequency
         char[] arr =  str.toCharArray(); // [A, B, B]
 
         int count = 0; //1
@@ -88,6 +89,32 @@ public class Library {
         }
 
         return count;
+    }
+
+    public static String uniques(String str){ // "AABCDCD"
+        String result = ""; //ACD
+        for(int i=0; i < str.length(); i++){
+            int num = Frequency(str, str.charAt(i) );
+            if( num == 1){
+                result += str.charAt(i);
+            }
+        }
+
+        return result;
+    }
+
+
+    public static int max(ArrayList<Integer> list){  // returns the mxmum number from arraylist
+        int maximum = Integer.MIN_VALUE;
+        for(int i = 0; i < list.size(); i++){
+
+            if(list.get(i) > maximum ){
+                maximum = list.get(i);
+            }
+
+        }
+
+        return maximum;
     }
 
 

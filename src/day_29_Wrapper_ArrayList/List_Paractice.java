@@ -3,38 +3,48 @@ package day_29_Wrapper_ArrayList;
 import java.util.ArrayList;
 
 public class List_Paractice {
-    public static void main(String[] args) {
 
 
-        ArrayList<String > grocery= new ArrayList<>();
+        public static void main(String[] args) {
 
-        grocery.add("Milk");
-        grocery.add("Coffe");
-        grocery.add("Balcan");
-        grocery.add("Semik");
-        grocery.add("Pepper");
-        grocery.add("Gost");
-        System.out.println(grocery);
+            ArrayList<String> shoppingList = new ArrayList<>();
+            shoppingList.add(  "Milk"  );   // size: 1
+            shoppingList.add( "Coffee" );  // size: 2
+            shoppingList.add( "Bread" );   // size: 3
+            shoppingList.add( "Toilet Paper" );  // size: 4
+            shoppingList.add( "Eggs" );  // size: 5
 
-        for(int i=0; i<grocery.size();i++){
-            System.out.println(grocery.get(i));
+            System.out.println(shoppingList);
 
+
+            for(int i = 0; i < shoppingList.size(); i++){ // i: 0,1,2,3
+                System.out.println( shoppingList.get(i)  );
+            }
+
+            System.out.println("=========================================");
+
+            for( String each : shoppingList){
+                System.out.println(each);
+            }
+
+            // size():
+
+            int size = shoppingList.size();
+            System.out.println(size);
+
+            int lastIndex = shoppingList.size() -1;
+            System.out.println(lastIndex);
+
+
+
+
+/*
+        System.out.println( shoppingList.get(0)  );
+        System.out.println( shoppingList.get(1)  );
+        System.out.println( shoppingList.get(2)  );
+        System.out.println( shoppingList.get(4)  );
+ */
 
         }
-        int last=grocery.size()-1;
-        System.out.println(last);
-        System.out.println("===-=--=--=-=-=--=");
-
-        for(String each:grocery){
-            System.out.println(each);
-
-        }
-
-     int size=  grocery.size();
-
-        System.out.println(size);
-
-
 
     }
-}
