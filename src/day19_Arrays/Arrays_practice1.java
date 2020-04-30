@@ -6,8 +6,8 @@ public class Arrays_practice1 {
 
         String[] friends = {"Kuzzat", "Asiya", "Saim", "Akbar", "Marufjon", "Guljannat", "Murodil"};
         //          0          1         2        3        4             5           6
-
         /*
+
         System.out.println(   friends[6]   );
               String s1 =    friends[2];
         System.out.println(s1);
