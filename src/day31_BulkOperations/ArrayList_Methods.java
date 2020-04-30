@@ -57,7 +57,12 @@ boolean r3= Arrays.equals(arr1,arr2);
 
 
 
+        System.out.println(list3.size());
 
+       // list3.clear();
+        boolean r4=list3.isEmpty();
+
+        System.out.println(r4);
 
     }
 }
