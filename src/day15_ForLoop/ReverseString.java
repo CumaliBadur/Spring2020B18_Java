@@ -11,7 +11,9 @@ public class ReverseString {
         int lastIndexnum = str.length()-1;
 
         String reverse2 = "";
-        for(int i = lastIndexnum; i>=0 ; i--){
+
+        for(int i=0;i>str.length()-1;i--){
+       // for(int i = lastIndexnum; i>=0 ; i--){
             //  System.out.print(str.charAt(i));
             reverse2 += str.charAt(i);
         }

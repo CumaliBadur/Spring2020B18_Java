@@ -1,5 +1,7 @@
 package day23_Methods;
 
+import javax.sound.midi.Soundbank;
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class Medhod_WithParameters {
@@ -10,7 +12,11 @@ public class Medhod_WithParameters {
         System.out.println("Enter your age");
         byte age = scan.nextByte();
 
-        EligibleToBuyAlcohol(age); // explicit casting
+       EligibleToBuyAlcohol(age); // explicit casting
+
+
+
+
 
     }
 

@@ -4,56 +4,40 @@ import java.util.ArrayList;
 import java.util.Arrays;
 
 public class Bulk_addAll {
+
     public static void main(String[] args) {
-
-
-        ArrayList<Integer> list1= new ArrayList<>();
-/*
-        list1.add(30);
+        ArrayList<Integer> list1 =  new ArrayList<>();
+        list1.add(10);
         list1.add(20);
+        list1.add(30);
         list1.add(40);
-        list1.add(50);
-        list1.add(45);
-        list1.add(35);
-        list1.add(200);
 
-        System.out.println(list1);
-*/
+        // if 10, 20, 60, 80, 100, 200 , 4000 if all objectsare exits in arraylist ==> true
+        // otherwise==> false
 
+        /*
+            boolean r1 = list1.contains(10);
+            boolean r2 = list1.contains(20);
+            boolean r3 = list1.contains(60);
+            boolean result = r1 == true && r2 == true && r3 == true;
+        System.out.println(result);
+         */
 
-        list1.addAll(Arrays.asList(30,20,40,50,45,35,200));
+        boolean result2 =   list1.containsAll(  Arrays.asList(10, 20, 30)  );
+        // CollectionType
+        System.out.println(result2);
 
-        Integer [] arr1={30,20,40,50,45,35,200};
+        // 10, 30, 40
+        Integer[] data = {10, 30, 40};
+        boolean result3 =  list1.containsAll( Arrays.asList(data)  );
+        System.out.println(result3);
 
-        list1.addAll(Arrays.asList(arr1));
-        System.out.println(list1);
-
-
-        System.out.println("==================================");
-
-
-      String[] names={"Murtaza","Muhtar","Muhesong","Sada","Rustem"};
-
-//names[5]="Osman";
-
-        System.out.println(Arrays.toString(names));
-
-        ArrayList<String> namelist= new ArrayList<>();
-
-        namelist.addAll(Arrays.asList(names));
-        System.out.println(namelist);
-        namelist.add("Osman");
-        namelist.remove("Muhtar");
-        System.out.println(namelist);
-
-        System.out.println("===========================================");
-        Integer [] numbers={1,2,3,4,5,6,7,8,9,10};
-        ArrayList<Integer> numlist= new ArrayList<>(Arrays.asList(numbers));
-
-        System.out.println(numlist);
+        // list1.containsAll( 1,2,3,4,5 );
 
 
 
 
     }
+
+
 }

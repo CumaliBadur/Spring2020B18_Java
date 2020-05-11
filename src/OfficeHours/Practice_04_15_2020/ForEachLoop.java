@@ -3,35 +3,39 @@ package OfficeHours.Practice_04_15_2020;
 import java.util.Arrays;
 
 public class ForEachLoop{
+    /*
+    for each loop:
+            for(DataType  variableName :  ArrayName ){
+            }
+     */
 
     public static void main(String[] args) {
+        int[] arr = {1, 2, 3, 4};
 
-        int[] arr1D = { 1,2,3  };
-        //                 0 1 2      0 1 2 3
-        int[][] arr2D = { {1,2,3 } , {4,5,6,7}  };
-        //                       0           1
-        //[index num of 1DArray][index num of elements]
+        for( int each : arr ){
+            if(each ==3){
+                //continue;
+                break;
+            }
+            System.out.println(each);
+        }
+
+        System.out.println("=====================================");
+
+        int[] arr2 = {1,2,3,4,5,6,7,8,9,10};
+
+        for(int  each : arr2 ){
+            if(each % 2 == 0){
+                System.out.println(each);
+            }
+        }
 
 
-        // {4,5,6,7};
-
-        System.out.println( arr2D[1] );
-        System.out.println(Arrays.toString(arr2D[1]) );
 
 
-
-        // 7
-        System.out.println( arr2D[1][3]  );
-
-        // 4
-        System.out.println( arr2D[1][0]  );
-
-
-        System.out.println( Arrays.deepToString(arr2D) );
 
 
 
     }
-
 
 }
