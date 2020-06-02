@@ -2,7 +2,7 @@ package day17_Whileloops;
 
 import java.util.Scanner;
 
-public class Credentials  {
+public class Credentials {
 /*
         user: cybertek
         pass: cybertek123
@@ -12,30 +12,30 @@ public class Credentials  {
         Scanner input = new Scanner(System.in);
 
         System.out.println("Enter User name");
-        String username = input.next();
+        String username  = input.next();
 
         System.out.println("Enter Pass Word");
-        String password = input.next();
+        String password  = input.next();
 
-        boolean valid = (username.equals("cybertek") && password.equals("cybertek123")); // false
+        boolean valid = (username.equals("cybertek") && password.equals("cybertek123") ); // false
         // validating the first username and password
 
         int count = 1;
 
-        while (!valid) {
+        while( ! valid   ){
             // !true
             System.out.println("Please re enter your credentions");
             System.out.println("Enter User name");
-            username = input.next();
+            username  = input.next();
 
             System.out.println("Enter Pass Word");
-            password = input.next();
+            password  = input.next();
 
-         valid = (username.equals("cybertek") && password.equals("cybertek123") );  // true
+            valid = (username.equals("cybertek") && password.equals("cybertek123") );  // true
             // validating new username and passwords
 
             count++;
-            if (count == 3 && !valid) { // already have three attempts and credentials are still incorrect
+            if(count ==3 && ! valid ){ // already have three attempts and credentials are still incorrect
                 System.out.println("Your account is locked");
                 break;
             }

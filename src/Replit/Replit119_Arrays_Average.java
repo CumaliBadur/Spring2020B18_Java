@@ -1,4 +1,4 @@
-package Resources;
+package Replit;
 
 import java.util.Scanner;
 
